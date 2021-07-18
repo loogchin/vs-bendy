@@ -1,0 +1,62 @@
+How to use
+Installing the Required Programs
+
+
+First you need to install Haxe and HaxeFlixel.
+
+Install Haxe 4.1.5 (Download 4.1.5 Installing the Required Programs
+
+
+First you need to install Haxe and HaxeFlixel.
+
+Install Haxe 4.1.5 (Download 4.1.5 instead of 4.2.0 because 4.2.0 is broken and is not working with gits properly...)
+Install HaxeFlixel after downloading Haxe
+Other installations you will need are the additional libraries. A fully updated list will be in Project.xml in the project root. Currently, these are all the things you need to install:
+
+flixel
+flixel-addons
+flixel-ui
+hscript
+newgrounds
+seedyrng
+random
+systools
+So, for each of those type haxelib install [library] so shit like haxelib install newgrounds.
+
+You will also need to install a couple things that involve Gits. To do this, you need to do a few things first.
+
+Download git-scm. Works for Windows, Mac, and Linux, just select your build.
+Follow instructions to install the application properly.
+Run haxelib git polymod https://github.com/larsiusprime/polymod.git to install Polymod.
+Run haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc to install Discord RPC.
+Run haxelib git hscript-plus https://github.com/DleanJeans/hscript-plus/ because its required to compile properly.
+Optional: - Run haxelib git flixel-addons https://github.com/HaxeFlixel/flixel-addons to update Flixel-Addons. This fixes the transition bug for zoomed out stage cameras.
+Optional: - Run haxelib git random https://github.com/jasononeil/hxrandom to make random more random.
+Run haxelib git systools https://github.com/haya3218/systools to install systools and run lime rebuild systools windows. This is required for system edits, if defender decides to say "fuck u virus" then ignore it. USE HAYA'S REPO TO MAKE IT WORK OR ITLL THROW A COMPILER ERROR.
+You should have everything ready for compiling the mod! Follow the guide below to continue! of 4.2.0 because 4.2.0 is broken and is not working with gits properly...)
+Install HaxeFlixel after downloading Haxe
+Other installations you will need are the additional libraries. A fully updated list will be in Project.xml in the project root. Currently, these are all the things you need to install:
+
+flixel
+flixel-addons
+flixel-ui
+hscript
+newgrounds
+seedyrng
+random
+systools
+So, for each of those type haxelib install [library] so shit like haxelib install newgrounds.
+
+You will also need to install a couple things that involve Gits. To do this, you need to do a few things first.
+
+Download git-scm. Works for Windows, Mac, and Linux, just select your build.
+Follow instructions to install the application properly.
+Run haxelib git polymod https://github.com/larsiusprime/polymod.git to install Polymod.
+Run haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc to install Discord RPC.
+Run haxelib git hscript-plus https://github.com/DleanJeans/hscript-plus/ because its required to compile properly.
+Optional: - Run haxelib git flixel-addons https://github.com/HaxeFlixel/flixel-addons to update Flixel-Addons. This fixes the transition bug for zoomed out stage cameras.
+Optional: - Run haxelib git random https://github.com/jasononeil/hxrandom to make random more random.
+Run haxelib git systools https://github.com/haya3218/systools to install systools and run lime rebuild systools windows. This is required for system edits, if defender decides to say "fuck u virus" then ignore it. USE HAYA'S REPO TO MAKE IT WORK OR ITLL THROW A COMPILER ERROR.
+You should have everything ready for compiling the mod! Follow the guide below to continue!
+
+Lime test windows
